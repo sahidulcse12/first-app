@@ -1,0 +1,92 @@
+[
+    {
+        "author": "J.K. Rowling",
+        "title": "Harry Potter and the Sorcerer's Stone",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91n7p-j5aqL._AC_UL600_SR600,400_.jpg",
+        "price": 10.99,
+        "genre": "fantasy",
+        "numberOfPages": 320,
+        "publicationDate": "1997-06-26",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Rick Riordan",
+        "title": "Percy Jackson and the Olympians: The Lightning Thief",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/917Bc9C1MlL._AC_UL600_SR600,400_.jpg",
+        "price": 9.99,
+        "genre": "adventure",
+        "numberOfPages": 384,
+        "publicationDate": "2005-06-28",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Suzanne Collins",
+        "title": "The Hunger Games",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81v6oWQZj1L._AC_UL600_SR600,400_.jpg",
+        "price": 11.99,
+        "genre": "dystopian",
+        "numberOfPages": 374,
+        "publicationDate": "2008-09-14",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "John Green",
+        "title": "The Fault in Our Stars",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81KuLAC1XdL._AC_UL600_SR600,400_.jpg",
+        "price": 12.99,
+        "genre": "romance",
+        "numberOfPages": 312,
+        "publicationDate": "2012-01-10",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Cassandra Clare",
+        "title": "The City of Bones",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81tdvyI0MeL._AC_UL600_SR600,400_.jpg",
+        "price": 10.99,
+        "genre": "urban fantasy",
+        "numberOfPages": 485,
+        "publicationDate": "2009-03-31",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Neil Gaiman",
+        "title": "The Graveyard Book",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71pL+3nMzfL._AC_UL600_SR600,400_.jpg",
+        "price": 11.99,
+        "genre": "fantasy",
+        "numberOfPages": 310,
+        "publicationDate": "2008-09-08",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Philip Pullman",
+        "title": "The Golden Compass",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71RxwXoyOFL._AC_UL600_SR600,400_.jpg",
+        "price": 12.99,
+        "genre": "fantasy",
+        "numberOfPages": 399,
+        "publicationDate": "1995-10-19",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Lemony Snicket",
+        "title": "A Series of Unfortunate Events: The Bad Beginning",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/91HiZ8SjsNL._AC_UL600_SR600,400_.jpg",
+        "price": 9.99,
+        "genre": "mystery",
+        "numberOfPages": 169,
+        "publicationDate": "1999-09-30",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    },
+    {
+        "author": "Artemis Fowl",
+        "title": "Artemis Fowl",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81Xy1ugiWeL._AC_UL600_SR600,400_.jpg",
+        "price": 15.00,
+        "genre": "mystery",
+        "numberOfPages": 200,
+        "publicationDate": "1999-11-11",
+        "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like"
+    }
+]
