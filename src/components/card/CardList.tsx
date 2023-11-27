@@ -6,7 +6,6 @@ import Card from "./Card";
 const CardList = () => {
 
     const [pokeMonCard, setPokeMonCard] = useState<PokemonTCG.Set[]>([]);
-
     useEffect(() => {
         getCardData().then((data) => {
             setPokeMonCard(data);
