@@ -1,11 +1,11 @@
-import bookData from '@/data/bookData.json';
+import bookData from "@/data/bookData.json";
 const Description = ({ description }: { description: string }) => {
-    console.log(description, "description")
-    return (
-        <>
-            <div>{description}</div>
-        </>
-    );
+  console.log(description, "description");
+  return (
+    <>
+      <div>{description}</div>
+    </>
+  );
 };
 
 export default Description;

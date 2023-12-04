@@ -1,9 +1,9 @@
-import CardList from "@/components/card/CardList";
+import BookList from "@/components/book/BookList";
 
 export default function TaskTwo() {
-    return (
-        <main className="bg-gray-200">
-            <CardList />
-        </main>
-    );
+  return (
+    <div className="bg-gray-200">
+      <BookList />
+    </div>
+  );
 }
