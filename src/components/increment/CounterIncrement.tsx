@@ -1,23 +1,33 @@
-import { useContext } from "react";
-import { CountContext } from "./CounterContextProvider";
-
-
+import useStore from "./ZustandComponent";
 
 const CounterIncrement = () => {
-    const { state, action } = useContext(CountContext);
+  const { count, reset, increment, decrement } = useStore();
 
-    return (
-        <>
-            <h2 className="m-40 text-center">{state.count}</h2>
-            <div className="flex justify-center items-center my-40">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded" onClick={() => action({ type: 'INCREMENT' })}>increment</button>
-                <button className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded" onClick={() => action({ type: 'DECREMENT' })
-                }>decrement</button>
-                <button className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded" onClick={() => action({ type: 'RESET' })
-                }>reset</button>
-            </div>
-        </>
-    );
+  return (
+    <>
+      <h2 className="m-40 text-center">{count}</h2>
+      <div className="flex justify-center items-center my-40">
+        <button
+          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded"
+          onClick={increment}
+        >
+          increment
+        </button>
+        <button
+          className="bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded"
+          onClick={decrement}
+        >
+          decrement
+        </button>
+        <button
+          className="bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 mx-2 rounded"
+          onClick={reset}
+        >
+          reset
+        </button>
+      </div>
+    </>
+  );
 };
 
 export default CounterIncrement;

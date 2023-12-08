@@ -1,16 +1,23 @@
-import CountContextProvider from "@/components/increment/CounterContextProvider";
 import HeaderComponent from "@/components/increment/HeaderComponent";
 import "@/styles/globals.css";
+import {
+  HydrationBoundary,
+  QueryClient,
+  QueryClientProvider,
+} from "@tanstack/react-query";
 import type { AppProps } from "next/app";
-import { useContext } from "react";
+import { useContext, useState } from "react";
 
 export default function App({ Component, pageProps }: AppProps) {
+  const [queryClient] = useState(new QueryClient());
   return (
     <>
-      <CountContextProvider>
+      <QueryClientProvider client={queryClient}>
         <HeaderComponent />
-        <Component {...pageProps} />
-      </CountContextProvider>
+        <HydrationBoundary state={pageProps.dehydratedState}>
+          <Component {...pageProps} />
+        </HydrationBoundary>
+      </QueryClientProvider>
     </>
   );
 }

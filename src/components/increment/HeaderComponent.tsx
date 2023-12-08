@@ -1,15 +1,12 @@
-import { useContext } from "react";
-import { CountContext } from "./CounterContextProvider";
+import useStore from "./ZustandComponent";
 
 const HeaderComponent = () => {
-    const { state } = useContext(CountContext)
-    return (
-        <>
-            <div>
-                Header element count from child : {state.count}
-            </div>
-        </>
-    );
+  const { count } = useStore();
+  return (
+    <>
+      <div>Header element count from child : {count}</div>
+    </>
+  );
 };
 
 export default HeaderComponent;
